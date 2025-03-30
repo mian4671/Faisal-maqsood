@@ -1,6 +1,7 @@
 module cosmossdk.io/store
 
 go 1.23.4
+toolchain go1.24.1
 
 require (
 	cosmossdk.io/core v1.0.0
@@ -23,7 +24,7 @@ require (
 	go.uber.org/mock v0.5.0
 	google.golang.org/grpc v1.70.0
 	google.golang.org/protobuf v1.36.4
-	gotest.tools/v3 v3.5.1
+	gotest.tools/v3 v3.5.2
 )
 
 require (
