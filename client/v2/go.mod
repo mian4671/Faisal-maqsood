@@ -2,6 +2,8 @@ module cosmossdk.io/client/v2
 
 go 1.23.5
 
+toolchain go1.24.1
+
 require (
 	cosmossdk.io/api v0.8.2
 	cosmossdk.io/core v1.0.0
@@ -15,7 +17,7 @@ require (
 	go.uber.org/mock v0.5.0
 	google.golang.org/grpc v1.70.0
 	google.golang.org/protobuf v1.36.4
-	gotest.tools/v3 v3.5.1
+	gotest.tools/v3 v3.5.2
 	sigs.k8s.io/yaml v1.4.0
 )
 
