@@ -2,6 +2,8 @@ module github.com/cosmos/cosmos-sdk/tests
 
 go 1.23.5
 
+toolchain go1.24.1
+
 require (
 	cosmossdk.io/api v0.8.2
 	cosmossdk.io/collections v1.1.0
@@ -21,7 +23,7 @@ require (
 	google.golang.org/grpc v1.70.0
 	google.golang.org/protobuf v1.36.4
 	gotest.tools/v3 v3.5.1
-	pgregory.net/rapid v1.1.0
+	pgregory.net/rapid v1.2.0
 )
 
 require (
