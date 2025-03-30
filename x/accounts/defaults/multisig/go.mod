@@ -2,6 +2,8 @@ module cosmossdk.io/x/accounts/defaults/multisig
 
 go 1.23.5
 
+toolchain go1.24.1
+
 require (
 	cosmossdk.io/collections v1.1.0
 	cosmossdk.io/core v1.0.0
@@ -12,7 +14,7 @@ require (
 	github.com/cosmos/cosmos-sdk v0.53.0
 	github.com/cosmos/gogoproto v1.7.0
 	github.com/stretchr/testify v1.10.0
-	google.golang.org/protobuf v1.36.4
+	google.golang.org/protobuf v1.36.6
 )
 
 require (
